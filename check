@@ -1,0 +1,9 @@
+# Make a code change
+echo "# New line" >> README.md
+
+# Add and commit it
+git add README.md
+git commit -m "Test: Trigger Jenkins webhook"
+
+# Push to GitHub
+git push origin main
